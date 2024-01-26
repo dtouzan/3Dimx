@@ -1,7 +1,7 @@
 # CMOS for astronomy
-![3Dimx](3dimx.png?raw=true "3Dimx.png")
+![3Dimx](3Dimx.png?raw=true "3Dimx.png")
 
-![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)]
+![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)
 
 # Concept
 Conception d'une caméra CMOS sur la base des capteurs imx219, imx477 ou imx290 (non testé)
