@@ -17,6 +17,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 
 ### Raspberry Pi 4
 ![3DPi4](3DPi4.png?raw=true "3DPi4.png")
+<img src="3DPi4.png" width="50%">
 	
 	box_main_imx.stl
 	clip_imx.stl 
