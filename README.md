@@ -29,10 +29,10 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 	clip_imx_2w.stl 
 	box_cover_imx_2w.stl
 	
-# Software & instal
+# Software & facilities
 
 ### OS Raspbian bookworm or Bullseyes 
-	Default installation.
+	Default facility.
 	
 ### Libcamera
 	Included in distributions.
@@ -41,25 +41,25 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 		>libcamera-still --list-cameras
 	
 ### Indilib
-	Default installation, recompile if necessary.
+	Default facility, recompile if necessary.
 	
 ### Jupyter & JupyterLab
 	Create a python environment with options : --system-site-packages
 		>python3 -m venv --system-site-packages astropy
 		
 	Connect to your python environment (automatically in the .bashrc file if installed).
-	Default installation.
+	Default facility.
 		>pip install jupyter
 		>pip install jupyterlab
 		
 ### Astropy & astroquery
 	Connect to your python environment.
-	Default installation.
+	Default facility.
 		>pip install astropy astroquery
 		
 ### Indi_pylibcamera
 	Connect to your python environment.
-	Default installation without "sudo" and validate with the root password during the administrator request.
+	Default facility without "sudo" and validate with the root password during the administrator request.
 		>pip install indi-pylibcamera
 	And
 		>sudo indi_pylibcamera_postinstall
