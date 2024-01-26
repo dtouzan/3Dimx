@@ -60,7 +60,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 	And
 		>sudo indi_pylibcamera_postinstall
 		
-	lancement du serveur Indilib pour voir l'exécution.
+	Launching the Indilib server to see the execution.
 		>indiserver indi_pylibcamera
 		
 		
