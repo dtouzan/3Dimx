@@ -3,18 +3,12 @@
 
 ![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)
 
-# Concept
-Conception d'une caméra CMOS sur la base des capteurs imx219, imx477 ou imx290 (non testé)
+# Design
 Design of a CMOS camera based on the imx219, imx477 or imx290 sensors (untested)
 
-# Schémas
+# Schemes
 
-### Tête de caméra
-	Les têtes de caméra sont réalisées avec:
-		Une plaque de tilt T2
-		Un bouchon T2 (imx219 ou imx290) 
-		Un filtre UV/IR-cut
-		Une bague adaptatrice T2/M28
+### Camera head
 	The camera heads are made with:
 		A T2 tilt plate
 		A T2 plug (imx219 or imx290)
