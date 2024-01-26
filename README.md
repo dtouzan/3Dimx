@@ -4,7 +4,7 @@
 ![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)
 
 # Design
-Design of a CMOS camera based on the imx219, imx477 or imx290 sensors (untested)
+Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 
 # Schemes
 
@@ -16,45 +16,50 @@ Design of a CMOS camera based on the imx219, imx477 or imx290 sensors (untested)
 		A T2/M28 adapter ring
 
 ### Raspberry Pi 4
-	box_main_corps_imx.stl
-	clip_agrafe_imx.stl (diférente couleur suivant le capteur si possible)
-	box_cover_couvercle_imx.stl
+	box_main_imx.stl
+	clip_imx.stl 
+	box_cover_imx.stl
 
-### Raspberry Pi 2w (non tester)
-	box_main_corps_imx.stl
-	clip_agrafe_imx.stl (diférente couleur suivant le capteur si possible)
-	box_cover_couvercle_imx_2w.stl
+### Raspberry Pi 2w (untested)
+	box_main_imx.stl
+	clip_imx.stl 
+	box_cover_imx_2w.stl
 	
-# Software & installation
+# Software & instal
 
 ### OS Raspbian bookworm or Bullseyes 
-	Installation par defaut.
+	Default installation.
 	
 ### Libcamera
-	Incluse dans les distributions.
-	Vérifié les prérequis pour le fichier /boot/info.txt.
+	Included in distributions.
+	Checked the prerequisites for the /boot/info.txt file.
 	test:
-		>libcamera --list-camera
+		>libcamera-still --list-cameras
 	
 ### Indilib
-	Installation par defaut si elle existe sinon recompilation.
+	Default installation, recompile if necessary.
 	
 ### Jupyter & JupyterLab
-	Faire un environnement python avec l'options :  ......
-	Se connecter sur votre environnement (en automatique dans le fichier .bashrc si installé).
-	Installation par defaut.
+	Create a python environment with options : --system-site-packages
+		>python3 -m venv --system-site-packages astropy
+		
+	Connect to your python environment (automatically in the .bashrc file if installed).
+	Default installation.
 		>pip install jupyter
 		>pip install jupyterlab
 		
 ### Astropy & astroquery
-	Se connecter sur votre environnement.
-	Installation par default.
+	Connect to your python environment.
+	Default installation.
 		>pip install astropy astroquery
 		
-### Indi-pylibcamera
-	Installation par defaut sans "sudo" et valider avec le
-	mot de passe root lors de la demande administrateur.
+### Indi_pylibcamera
+	Connect to your python environment.
+	Default installation without "sudo" and validate with the root password during the administrator request.
 		>pip install indi-pylibcamera
+	And
+		>sudo indi_pylibcamera_postinstall
+		
 	lancement du serveur Indilib pour voir l'exécution.
 		>indiserver indi_pylibcamera
 		
