@@ -9,6 +9,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 # Schemes
 
 ### Camera head
+<img src="3D_camera_head_imx477.png" width="50%">
 	The camera heads are made with:
 		A T2 tilt plate
 		A T2 plug (imx219 or imx290)
