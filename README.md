@@ -9,7 +9,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 # Schemes
 
 ### Camera head
-<img src="3D_camera_head_imx477.png" width="25%">
+<img src="3D_camera_head_imx477.png">
 
 	The camera heads are made with:
 		A T2 tilt plate
@@ -18,11 +18,14 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
 		A T2/M28 adapter ring
 
 ### Raspberry Pi 4
-<img src="3DPi4.png" width="25%">
+<img src="3DPi.png">
 	
 	box_main_imx.stl
 	clip_imx.stl 
 	box_cover_imx.stl
+	Or	
+	clip_imx_2w.stl 
+	box_cover_imx_2w.stl
 
 ### Raspberry Pi 2w (untested)
 <img src="3DPi2w.png" width="25%">
