@@ -17,20 +17,13 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 		A UV/IR-cut filter
 		A T2/M28 adapter ring
 
-### Raspberry Pi 4
+### Raspberry Pi
 <img src="3DPi.png">
 	
 	box_main_imx.stl
 	clip_imx.stl 
 	box_cover_imx.stl
 	Or	
-	clip_imx_2w.stl 
-	box_cover_imx_2w.stl
-
-### Raspberry Pi 2w (untested)
-<img src="3DPi2w.png" width="25%">
-
-	box_main_imx.stl
 	clip_imx_2w.stl 
 	box_cover_imx_2w.stl
 	
