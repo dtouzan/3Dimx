@@ -4,7 +4,7 @@
 ![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)
 
 # Design
-Design of a CMOS camera based on the imx219, imx477 or (imx290 untested) sensors
+Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) sensors
 
 # Schemes
 
