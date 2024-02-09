@@ -12,7 +12,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 <img src="3D_camera_head.png">
 
 	The camera heads are made with:
-		A T2 tilt plate
+		A T2 anti-tilt plate
 		A T2 plug (imx219 or imx290)
 		A UV/IR-cut filter
 		A T2/M28 adapter ring
