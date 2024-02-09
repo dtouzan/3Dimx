@@ -66,4 +66,4 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 		>indiserver indi_pylibcamera
 		
 		
-# Conclusion
+# The shoot
