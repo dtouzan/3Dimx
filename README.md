@@ -18,7 +18,7 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 		A T2/M28 adapter ring
 
 ### Raspberry Pi
-<img src="3DPi.png">
+<img src="3D_Pi.png">
 	
 	box_main_imx.stl
 	clip_imx.stl 
