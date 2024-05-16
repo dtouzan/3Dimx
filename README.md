@@ -53,8 +53,10 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 		
 	Connect to your python environment (automatically in the .bashrc file if installed).
 	Default facility.
-		>pip install jupyter
-		>pip install jupyterlab
+		>pip install pip -U
+		>pip install setuptools -U
+		>pip install jupyter -U
+		>pip install jupyterlab -U
 		
 ### Astropy & astroquery
 	Connect to your python environment.
