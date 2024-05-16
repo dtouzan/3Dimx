@@ -30,6 +30,12 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 # Software & facilities
 
 ### OS Raspbian bookworm or Bullseyes 
+	For Raspberry Pi 2w upgrade swapfile
+	File /etc/dphys-swapfile
+		CONF_SWAPSIZE=2048
+	Reconfigure
+		>sudo dpkg-reconfigure dphys-swapfile
+	
 	Default facility.
 	
 ### Libcamera
@@ -57,11 +63,9 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 		
 ### Indi_pylibcamera
 	Connect to your python environment.
-	Default facility without "sudo" and validate with the root password during the administrator request.
+	Default facility.
 		>pip install indi-pylibcamera
-	And
-		>sudo indi_pylibcamera_postinstall
-		
+			
 	Launching the Indilib server to see the execution.
 		>indiserver indi_pylibcamera
 		
