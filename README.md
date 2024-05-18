@@ -4,7 +4,7 @@
 ![3Dimx](http://img.shields.io/badge/powered%20by-3Dimx-blue.svg?style=flat)
 
 # Design
-Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) sensors
+Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested) sensors
 
 # Schemes
 
@@ -30,17 +30,15 @@ Design of a CMOS camera based on the imx219, imx477 or (imx290/imx296 untested) 
 # Software & facilities
 
 ### OS Raspbian bookworm or Bullseyes 
+	Default facility.
 	For Raspberry Pi 2w upgrade swapfile
 	File /etc/dphys-swapfile
 		CONF_SWAPSIZE=2048
 	Reconfigure
 		>sudo dpkg-reconfigure dphys-swapfile
 	
-	Default facility.
-	
 ### Libcamera
 	Included in distributions.
-	Checked the prerequisites for the /boot/info.txt file.
 	test:
 		>libcamera-still --list-cameras
 	
