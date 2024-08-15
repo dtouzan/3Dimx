@@ -14,8 +14,8 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	The camera heads are made with:
 		A T2 anti-tilt plate
 		A T2 plug (imx219 or imx290)
-		A UV/IR-cut filter
-		A T2/M28 adapter ring
+		A UV/IR-cut filter (preferably Player One Astronomy)
+		A T2/M28 adapter ring (Pierro Astro)
 
 ### Raspberry Pi
 <img src="3D_Pi.png">
@@ -44,6 +44,9 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 ### Indilib
 	Default facility, recompile if necessary.
+		>sudo apt install libindi1 indi-bin
+		>sudo apt install indi-asi
+		>sudo apt install indi-eqmod
 	
 ### Jupyter & JupyterLab
 	Create a python environment with options : --system-site-packages
