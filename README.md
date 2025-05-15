@@ -44,7 +44,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 ### Indilib
 	Default facility, recompile if necessary.
-		>sudo apt install libindi1 indi-bin
+		>sudo apt install indi-bin
 		>sudo apt install indi-asi
 		>sudo apt install indi-eqmod
 	
