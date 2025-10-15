@@ -62,7 +62,8 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 ### Astropy & astroquery
 	Connect to your python environment.
 	Default facility.
-		>pip install astropy astroquery==0.4.7
+		>pip install astropy 
+		>pip install astroquery==0.4.7
 		
 ### Indi_pylibcamera
 	Connect to your python environment.
