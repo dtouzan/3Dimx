@@ -85,4 +85,4 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 <img src="3Dshoot.png">
 
 # Raspicam 2026 shoot
-<img src="Last_shoot.png">
+<img src="last_shoot.png">
