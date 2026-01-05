@@ -37,9 +37,9 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 # Software & facilities
 
-### OS Raspbian bookworm or Bullseyes 
+### OS Raspbian bookworm, Bullseyes or Trixie
 	Default facility.
-	For Raspberry Pi 2w upgrade swapfile
+	For Raspberry Pi 2w upgrade swapfile (not for Trixie)
 	File /etc/dphys-swapfile
 		CONF_SWAPSIZE=2048
 	Reconfigure
@@ -47,7 +47,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 ### Libcamera
 	Included in distributions.
-	test:
+	test for bookworm and Bullseyes:
 		>libcamera-still --list-cameras
 	
 ### Indilib
@@ -65,8 +65,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 		>pip install pip -U
 		>pip install setuptools -U
 		>pip install jupyter -U
-		>pip install jupyterlab -U
-		
+				
 ### Astropy & astroquery
 	Connect to your python environment.
 	Default facility.
