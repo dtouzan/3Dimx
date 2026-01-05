@@ -23,7 +23,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	3D/box_main_imx.stl
 	3D/clip_imx.stl 
 	3D/box_cover_imx.stl
-	3D/Or	
+	Or	
 	3D/clip_imx_2w.stl 
 	3D/box_cover_imx_2w.stl
 
