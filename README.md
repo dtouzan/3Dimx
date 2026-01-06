@@ -20,18 +20,30 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 ### Raspberry Pi
 <img src="3D_Pi.png">
 	
-	box_main_imx.stl
-	clip_imx.stl 
-	box_cover_imx.stl
+	3D/box_main_imx.stl
+	3D/clip_imx.stl 
+	3D/box_cover_imx.stl
 	Or	
-	clip_imx_2w.stl 
-	box_cover_imx_2w.stl
+	3D/clip_imx_2w.stl 
+	3D/box_cover_imx_2w.stl
+
+### RaspiCam 2026 (Pi 4 or Pi Zero 2W)
+<img src="3D_camera.png">
+<img src="3D_camera_EFWmini.png">
+	
+	3D/camera_imx477.stl
+	3D/camera_imx477_cover.stl
+	3D/spacer_imx477.stl
+	3D/nut_imx477.stl
+	Or
+	3D/cammini_imx477.stl
+	3D/cammini_imx477_cover.stl
 	
 # Software & facilities
 
-### OS Raspbian bookworm or Bullseyes 
+### OS Raspbian bookworm, Bullseyes or Trixie
 	Default facility.
-	For Raspberry Pi 2w upgrade swapfile
+	For Raspberry Pi 2w upgrade swapfile (not for Trixie)
 	File /etc/dphys-swapfile
 		CONF_SWAPSIZE=2048
 	Reconfigure
@@ -39,7 +51,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 ### Libcamera
 	Included in distributions.
-	test:
+	test for bookworm and Bullseyes:
 		>libcamera-still --list-cameras
 	
 ### Indilib
@@ -57,8 +69,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 		>pip install pip -U
 		>pip install setuptools -U
 		>pip install jupyter -U
-		>pip install jupyterlab -U
-		
+				
 ### Astropy & astroquery
 	Connect to your python environment.
 	Default facility.
@@ -76,3 +87,6 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 		
 # The shoot
 <img src="3Dshoot.png">
+
+# Raspicam 2026 shoot
+<img src="last_shoot.png">
