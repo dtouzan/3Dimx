@@ -27,13 +27,16 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	3D/clip_imx_2w.stl 
 	3D/box_cover_imx_2w.stl
 
-### RaspiCam 2026
+### RaspiCam 2026 (Pi 4 or Pi Zero 2W)
 <img src="3D_camera.png">
 	
 	3D/camera_imx477.stl
 	3D/camera_imx477_cover.stl
 	3D/spacer_imx477.stl
 	3D/nut_imx477.stl
+	Or
+	3D/cammini_imx477.stl
+	3D/cammini_imx477_cover.stl
 	
 # Software & facilities
 
