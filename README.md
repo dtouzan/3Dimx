@@ -43,11 +43,26 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 
 ### OS Raspbian bookworm, Bullseyes or Trixie
 	Default facility.
+	
 	For Raspberry Pi 2w upgrade swapfile (not for Trixie)
 	File /etc/dphys-swapfile
 		CONF_SWAPSIZE=2048
 	Reconfigure
 		>sudo dpkg-reconfigure dphys-swapfile
+		
+	For Trixie
+	Edit file /etc/rpi/swap.conf
+	Replace values and reboot:
+	
+	[Main]
+	Mechanism=swapfile
+	
+	[File]
+	Path=/var/swap
+	RamMultiplier=1
+	MaxSizeMiB=4096
+	MaxDiskPercent=50
+	FixedSizeMiB=4096
 	
 ### Libcamera
 	Included in distributions.
