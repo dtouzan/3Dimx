@@ -102,6 +102,11 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	Connect to your python environment.
 	Default facility.
 		>pip install indi-pylibcamera
+		
+	For look information
+	   ```bash
+	   indi_pylibcamera_print_camera_information
+	   ```
 			
 	Launching the Indilib server to see the execution.
 		>indiserver indi_pylibcamera
