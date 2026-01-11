@@ -61,9 +61,11 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 		>sudo apt install indi-eqmod
 		
 ### Indilib for Trixie
-	Install indilib and compile [Indilib](https://github.com/indilib/indi)
+	Install indilib and compile 
+[Indilib](https://github.com/indilib/indi)
 
-	Install indi-3rdparty and compile (*Do not instal libindi-dev*) [Indi-3rdparty](https://github.com/indilib/indi-3rdparty)
+	Install indi-3rdparty and compile (*Do not instal libindi-dev*) 
+[Indi-3rdparty](https://github.com/indilib/indi-3rdparty)
 	
 ### Jupyter & JupyterLab
 	Create a python environment with options : --system-site-packages
