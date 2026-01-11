@@ -54,11 +54,17 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	test for bookworm and Bullseyes:
 		>libcamera-still --list-cameras
 	
-### Indilib
-	Default facility, recompile if necessary.
+### Indilib 
+	Default facility for bookworm and Bullseyes (recompile if necessary).
 		>sudo apt install indi-bin
 		>sudo apt install indi-asi
 		>sudo apt install indi-eqmod
+		
+### Indilib for Trixie
+    Install indilib and compile
+    [Indilib](https://github.com/indilib/indi)
+    Install indi-3rdparty and compile (*Do not instal libindi-dev*)
+    [Indi-3rdparty](https://github.com/indilib/indi-3rdparty)
 	
 ### Jupyter & JupyterLab
 	Create a python environment with options : --system-site-packages
