@@ -69,6 +69,9 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	test for bookworm and Bullseyes:
 		>libcamera-still --list-cameras
 	
+	test for Trixie	
+		>rpicam-hello --list-cameras
+	
 ### Indilib 
 	Default facility for bookworm and Bullseyes (recompile if necessary).
 		>sudo apt install indi-bin
