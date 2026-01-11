@@ -102,7 +102,7 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 		>pip install astroquery==0.4.7
 		
 ### Indi_pylibcamera
-[Indi-pylibcamera]https://github.com/scriptorron/indi_pylibcamera
+[Indi-pylibcamera](https://github.com/scriptorron/indi_pylibcamera)
 
 	Connect to your python environment.
 	Default facility.
