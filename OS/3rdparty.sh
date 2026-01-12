@@ -10,29 +10,29 @@ git clone --depth=1 https://github.com/indilib/indi-3rdparty
 mkdir -p ~/Projects/build/indi-3rdparty-libs
 cd ~/Projects/build/indi-3rdparty-libs
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug -DBUILD_LIBS=1 ~/Projects/indi-3rdparty
-make -j4
+make -j2
 sudo make install
 
 mkdir -p ~/Projects/build/indi-eqmod
 cd ~/Projects/build/indi-eqmod
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-eqmod
-make -j4
+make -j2
 sudo make install
 
 mkdir -p ~/Projects/build/indi-asi
 cd ~/Projects/build/indi-asi
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-asi
-make -j4
+make -j2
 sudo make install
 
 mkdir -p ~/Projects/build/indi-svbony
 cd ~/Projects/build/indi-svbony
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-svbony
-make -j4
+make -j2
 sudo make install
 
 mkdir -p ~/Projects/build/indi-atik
 cd ~/Projects/build/indi-atik
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-atik
-make -j4
+make -j2
 sudo make install
