@@ -38,6 +38,6 @@ git clone --depth 1 https://github.com/indilib/indi.git
 
 cd ~/Projects/indi
 cmake -B build -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug
-cmake --build build
+cmake --build build -j 1
 sudo cmake --install build
 
