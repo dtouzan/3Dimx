@@ -59,10 +59,10 @@ Design of a CMOS camera based on the imx219, imx477, imx296 or (imx290 untested)
 	
 	[File]
 	Path=/var/swap
-	RamMultiplier=1
+	RamMultiplier=2
 	MaxSizeMiB=4096
 	MaxDiskPercent=50
-	FixedSizeMiB=4096
+	FixedSizeMiB=2048
 	
 ### Libcamera
 	Included in distributions.
