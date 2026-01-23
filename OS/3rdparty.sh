@@ -36,3 +36,9 @@ cd ~/Projects/build/indi-atik
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-atik
 make -j2
 sudo make install
+
+mkdir -p ~/Projects/build/indi-playerone
+cd ~/Projects/build/indi-playerone
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ~/Projects/indi-3rdparty/indi-playerone
+make -j2
+sudo make install
